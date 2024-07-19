@@ -59,9 +59,16 @@ const Nav = () => {
                 <Link
                     onClick={handleClick}
                     className={styles.link}
+                    href="/find-us"
+                >
+                    Find Us
+                </Link>
+                <Link
+                    onClick={handleClick}
+                    className={styles.link}
                     href="/contact"
                 >
-                    Contact / Maps
+                    Contact Us
                 </Link>
             </div>
         </>
