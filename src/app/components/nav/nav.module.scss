@@ -1,5 +1,35 @@
 @import "../../layout.module.scss";
 
+.header {
+    padding: 0;
+    margin: 0;
+    padding-top: 1rem;
+    background-color: $primaryColour;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 10;
+
+    a,
+    h3 {
+        text-decoration: none;
+        color: black;
+        font-family: $font;
+        padding: 0;
+        margin: 0;
+        z-index: 10;
+    }
+    a {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 0.8rem;
+    }
+}
+
 .nav {
     padding-top: 2rem;
     background-color: $primaryColour;
@@ -113,7 +143,7 @@
 }
 .dropDownMenu {
     padding-top: 5rem;
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,14 +152,14 @@
     visibility: visible;
     opacity: 1;
     background-color: none;
-    transition: all 250ms;
+    transition: all 250ms ease-in-out;
     width: 100%;
-    height: 100%;
+    height: 100svh;
     top: 0;
 
     a {
         font-family: $font;
-        transition: all 250ms;
+        transition: all 250ms ease-in-out;
         opacity: 0;
         font-size: 1.4rem;
     }

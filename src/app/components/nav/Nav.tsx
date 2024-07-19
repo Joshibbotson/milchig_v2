@@ -10,8 +10,18 @@ const Nav = () => {
         setIsActive(!isActive);
     }
 
+    function closeMenu() {
+        setIsActive(false);
+    }
+
     return (
         <>
+            <header className={styles.header}>
+                <Link onClick={closeMenu} href="/">
+                    MILCHIG
+                </Link>
+                <h3>PARAGON ARCADE</h3>
+            </header>
             <nav className={styles.nav}>
                 <div
                     className={`${styles.hamburgerBtn} ${
