@@ -17,6 +17,7 @@
         width: 40rem;
         max-width: 100%; // Ensure the image doesn't exceed its original size
         overflow: hidden; // Ensure the container hides overflow
+        border-radius: 0.6rem;
     }
 
     .insideShopImg {
@@ -44,6 +45,7 @@
         .imgWrapper {
             width: 80%;
             height: 40rem; // Adjust height for larger screens
+            border-radius: 0.6rem;
         }
 
         .insideShopImg {
