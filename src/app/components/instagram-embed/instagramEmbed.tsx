@@ -1,6 +1,10 @@
 import { useEffect } from "react";
 
-const InstagramEmbed = ({ url }) => {
+interface InstagramEmbedProps {
+    url: string;
+}
+
+const InstagramEmbed = ({ url }: InstagramEmbedProps) => {
     useEffect(() => {
         const script = document.createElement("script");
         script.src = "//www.instagram.com/embed.js";
