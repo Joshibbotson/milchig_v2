@@ -46,6 +46,13 @@
             width: 80%;
             height: 40rem; // Adjust height for larger screens
             border-radius: 0.6rem;
+            box-shadow: 4px 4px 10px $secondaryColour;
+            cursor: crosshair;
+            transition: box-shadow 250ms;
+        }
+
+        .imgWrapper:hover {
+            box-shadow: 10px 10px 0px $secondaryColour;
         }
 
         .insideShopImg {
