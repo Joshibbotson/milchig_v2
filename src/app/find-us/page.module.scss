@@ -1,3 +1,5 @@
+@import "../layout.module.scss";
+
 .main {
     display: flex;
     flex-direction: column;
@@ -22,6 +24,7 @@
                 font-weight: 400;
                 letter-spacing: 0.075rem;
                 line-height: 1.5;
+                font-family: $font;
             }
         }
     }
