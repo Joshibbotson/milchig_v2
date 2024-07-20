@@ -1,0 +1,49 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .mapContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        section {
+            margin-top: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            p {
+                margin: 0;
+                padding: 0;
+                font-size: 1rem;
+                font-weight: 400;
+                letter-spacing: 0.075rem;
+                line-height: 1.5;
+            }
+        }
+    }
+
+    .iframe {
+        width: 80%;
+        height: 20rem;
+        border-radius: 1rem;
+    }
+}
+
+@media (min-width: 860px) {
+    .main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+
+        .iframe {
+            width: 40rem;
+            height: 30rem;
+        }
+    }
+}
