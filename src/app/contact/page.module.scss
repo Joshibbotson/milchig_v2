@@ -23,6 +23,7 @@
     gap: 2rem;
     border-radius: 0.6rem;
     padding: 1rem;
+    background-color: $darkPrimaryColour;
     box-shadow: 0px 4px 10px $secondaryColour;
 
     .wrapper {
@@ -37,6 +38,7 @@
             font-weight: 400;
             letter-spacing: 0.075rem;
             line-height: 1.5;
+            color: white;
         }
     }
 
@@ -66,12 +68,15 @@
         font-weight: 400;
         letter-spacing: 0.075rem;
         line-height: 1.5;
+        outline: 2px solid white;
+        border: none;
+        color: white;
     }
 
     button:hover {
         background-color: white;
-        border: none;
         outline: none;
+        color: black;
     }
 }
 

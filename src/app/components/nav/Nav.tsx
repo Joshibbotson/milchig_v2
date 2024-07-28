@@ -20,7 +20,7 @@ const Nav = () => {
                 <Link onClick={closeMenu} href="/">
                     MILCHIG
                 </Link>
-                <h3>PARAGON ARCADE</h3>
+                <h3>EATERY AND COFFEE SHOP</h3>
             </header>
             <nav className={styles.nav}>
                 <div
