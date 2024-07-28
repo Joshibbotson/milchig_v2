@@ -10,17 +10,6 @@
     align-items: center;
     flex-direction: column;
 
-    .imgWrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 40rem;
-        max-width: 100%; // Ensure the image doesn't exceed its original size
-        overflow: hidden; // Ensure the container hides overflow
-        border-radius: 0.6rem;
-        box-shadow: 4px 4px 10px $secondaryColour;
-    }
-
     .insideShopImg {
         width: 20rem;
         height: auto; // Maintain aspect ratio
@@ -44,15 +33,6 @@
 
 @media (min-width: 860px) {
     .main {
-        .imgWrapper {
-            width: 80%;
-            height: 40rem; // Adjust height for larger screens
-            border-radius: 0.6rem;
-            box-shadow: 4px 4px 10px $secondaryColour;
-            cursor: crosshair;
-            transition: box-shadow 500ms;
-        }
-
         .insideShopImg {
             width: 80%;
             max-width: 60rem;
